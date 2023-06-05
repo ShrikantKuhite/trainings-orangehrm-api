@@ -1,0 +1,11 @@
+com\nxtgenai\jobportal\DeleteJobDetails.class
+com\nxtgenai\jobportal\UpdateJobDetails.class
+com\nxtgenai\jobportal\UpdatedJobDescription.class
+com\nxtgenai\auth\AuthAPITest.class
+com\nxtgenai\listeners\ExtentListeners.class
+com\nxtgenai\jobportal\CreateJobId.class
+com\nxtgenai\jobportalapi\JobPortalAPI.class
+com\nxtgenai\listeners\ExtentManager.class
+com\nxtgenai\auth\AuthAPI.class
+com\nxtgenai\jobportal\GetJobDetails.class
+com\nxtgenai\setUp\BaseTest.class

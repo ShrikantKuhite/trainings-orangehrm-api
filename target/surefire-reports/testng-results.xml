@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="14" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-31T18:41:21 IST" name="Automation Suite" finished-at="2023-05-31T18:41:24 IST" duration-ms="3456">
+    <groups>
+    </groups>
+    <test started-at="2023-05-31T18:41:21 IST" name="Sanity" finished-at="2023-05-31T18:41:24 IST" duration-ms="3456">
+      <class name="com.nxtgenai.jobportal.CreateJobId">
+        <test-method signature="createJobDetails()[pri:0, instance:com.nxtgenai.jobportal.CreateJobId@13d73f29]" started-at="2023-05-31T18:41:22 IST" name="createJobDetails" finished-at="2023-05-31T18:41:22 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createJobDetails -->
+      </class> <!-- com.nxtgenai.jobportal.CreateJobId -->
+      <class name="com.nxtgenai.jobportal.DeleteJobDetails">
+        <test-method signature="deleteJobDetails()[pri:0, instance:com.nxtgenai.jobportal.DeleteJobDetails@2f67a4d3]" started-at="2023-05-31T18:41:22 IST" name="deleteJobDetails" finished-at="2023-05-31T18:41:22 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteJobDetails -->
+      </class> <!-- com.nxtgenai.jobportal.DeleteJobDetails -->
+      <class name="com.nxtgenai.jobportal.UpdateJobDetails">
+        <test-method signature="updateJobDetails()[pri:0, instance:com.nxtgenai.jobportal.UpdateJobDetails@565f390]" started-at="2023-05-31T18:41:22 IST" name="updateJobDetails" finished-at="2023-05-31T18:41:22 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateJobDetails -->
+      </class> <!-- com.nxtgenai.jobportal.UpdateJobDetails -->
+      <class name="com.nxtgenai.jobportal.GetJobDetails">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nxtgenai.jobportal.GetJobDetails@6e2aa843]" started-at="2023-05-31T18:41:21 IST" name="setUp" finished-at="2023-05-31T18:41:21 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getJobDetails()[pri:0, instance:com.nxtgenai.jobportal.GetJobDetails@6e2aa843]" started-at="2023-05-31T18:41:21 IST" name="getJobDetails" finished-at="2023-05-31T18:41:22 IST" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getJobDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nxtgenai.jobportal.GetJobDetails@6e2aa843]" started-at="2023-05-31T18:41:24 IST" name="tearDown" finished-at="2023-05-31T18:41:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nxtgenai.jobportal.GetJobDetails -->
+      <class name="com.nxtgenai.jobportal.UpdatedJobDescription">
+        <test-method signature="updateJobDescription()[pri:0, instance:com.nxtgenai.jobportal.UpdatedJobDescription@7dc3712]" started-at="2023-05-31T18:41:22 IST" name="updateJobDescription" finished-at="2023-05-31T18:41:22 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateJobDescription -->
+      </class> <!-- com.nxtgenai.jobportal.UpdatedJobDescription -->
+      <class name="com.nxtgenai.auth.AuthAPITest">
+        <test-method signature="autheticateAPIUsingGetMethod()[pri:0, instance:com.nxtgenai.auth.AuthAPITest@5e3f861]" started-at="2023-05-31T18:41:22 IST" name="autheticateAPIUsingGetMethod" finished-at="2023-05-31T18:41:24 IST" duration-ms="2000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autheticateAPIUsingGetMethod -->
+      </class> <!-- com.nxtgenai.auth.AuthAPITest -->
+    </test> <!-- Sanity -->
+  </suite> <!-- Automation Suite -->
+</testng-results>

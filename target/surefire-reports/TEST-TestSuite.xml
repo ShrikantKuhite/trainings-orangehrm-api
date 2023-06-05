@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="4.694" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\My Project Data\practice-workspace\APITestingFrameworkUpdated\target\test-classes;D:\My Project Data\practice-workspace\APITestingFrameworkUpdated\target\classes;C:\Users\shrikant.kuhite\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\shrikant.kuhite\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\shrikant.kuhite\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\shrikant.kuhite\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\shrikant.kuhite\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\shrikant.kuhite\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\shrikant.kuhite\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\shrikant.kuhite\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\shrikant.kuhite\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\shrikant.kuhite\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\shrikant.kuhite\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\shrikant.kuhite\.m2\repository\org\json\json\20190722\json-20190722.jar;C:\Users\shrikant.kuhite\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.0\jackson-databind-2.10.0.jar;C:\Users\shrikant.kuhite\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.0\jackson-annotations-2.10.0.jar;C:\Users\shrikant.kuhite\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.0\jackson-core-2.10.0.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\shrikant.kuhite\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\shrikant.kuhite\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\shrikant.kuhite\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\shrikant.kuhite\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\shrikant.kuhite\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\shrikant.kuhite\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\shrikant.kuhite\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\shrikant.kuhite\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\shrikant.kuhite\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;"/>
+    <property name="java.vm.vendor" value="OpenLogic"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openlogic.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="D:\My Project Data\Softwares\Java11\openlogic-openjdk-11.0.19+7-windows-x64\bin"/>
+    <property name="sun.java.command" value="C:\Users\SHRIKA~1.KUH\AppData\Local\Temp\surefire10273491191061732511\surefirebooter3583791409525220081.jar C:\Users\shrikant.kuhite\AppData\Local\Temp\surefire10273491191061732511 2023-05-31T18-41-18_808-jvmRun1 surefire15308702574924030678tmp surefire_06718347304327670907tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\My Project Data\practice-workspace\APITestingFrameworkUpdated\target\test-classes;D:\My Project Data\practice-workspace\APITestingFrameworkUpdated\target\classes;C:\Users\shrikant.kuhite\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\shrikant.kuhite\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\shrikant.kuhite\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\shrikant.kuhite\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\shrikant.kuhite\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\shrikant.kuhite\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\shrikant.kuhite\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\shrikant.kuhite\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\shrikant.kuhite\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\shrikant.kuhite\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\shrikant.kuhite\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\shrikant.kuhite\.m2\repository\org\json\json\20190722\json-20190722.jar;C:\Users\shrikant.kuhite\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.0\jackson-databind-2.10.0.jar;C:\Users\shrikant.kuhite\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.0\jackson-annotations-2.10.0.jar;C:\Users\shrikant.kuhite\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.0\jackson-core-2.10.0.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\shrikant.kuhite\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\shrikant.kuhite\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\shrikant.kuhite\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\shrikant.kuhite\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\shrikant.kuhite\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\shrikant.kuhite\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\shrikant.kuhite\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\shrikant.kuhite\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\shrikant.kuhite\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\shrikant.kuhite\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\shrikant.kuhite"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="D:\My Project Data\Softwares\Java11\openlogic-openjdk-11.0.19+7-windows-x64"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="D:\My Project Data\practice-workspace\APITestingFrameworkUpdated"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\SHRIKA~1.KUH\AppData\Local\Temp\surefire10273491191061732511\surefirebooter3583791409525220081.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.19+7-adhoc..jdk11u"/>
+    <property name="user.name" value="shrikant.kuhite"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="OpenLogic-OpenJDK"/>
+    <property name="localRepository" value="C:\Users\shrikant.kuhite\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://techsupport.roguewave.com/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SHRIKA~1.KUH\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.19"/>
+    <property name="user.dir" value="D:\My Project Data\practice-workspace\APITestingFrameworkUpdated"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\My Project Data\Softwares\Java11\openlogic-openjdk-11.0.19+7-windows-x64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/shrikant.kuhite/my-eclipse/eclipse-jee-2022-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_19.0.1.v20221102-1007/jre/bin/server;C:/Users/shrikant.kuhite/my-eclipse/eclipse-jee-2022-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_19.0.1.v20221102-1007/jre/bin;C:\Program Files\Java\openlogic-openjdk-11.0.19+7-windows-x64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\shrikant.kuhite\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Users\shrikant.kuhite\AppData\Local\Microsoft\WindowsApps;C:\Users\shrikant.kuhite\AppData\Local\Programs\Git\cmd;C:\Users\shrikant.kuhite\AppData\Local\GitHubDesktop\bin;C:\Users\shrikant.kuhite\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2023.1.1\bin;;C:\Users\shrikant.kuhite\my-eclipse\eclipse-jee-2022-06-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="OpenLogic"/>
+    <property name="java.vm.version" value="11.0.19+7-adhoc..jdk11u"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="getJobDetails" classname="com.nxtgenai.jobportal.GetJobDetails" time="1.309"/>
+  <testcase name="createJobDetails" classname="com.nxtgenai.jobportal.CreateJobId" time="0.031"/>
+  <testcase name="updateJobDetails" classname="com.nxtgenai.jobportal.UpdateJobDetails" time="0.02"/>
+  <testcase name="updateJobDescription" classname="com.nxtgenai.jobportal.UpdatedJobDescription" time="0.027"/>
+  <testcase name="deleteJobDetails" classname="com.nxtgenai.jobportal.DeleteJobDetails" time="0.033"/>
+  <testcase name="autheticateAPIUsingGetMethod" classname="com.nxtgenai.auth.AuthAPITest" time="2.001"/>
+</testsuite>

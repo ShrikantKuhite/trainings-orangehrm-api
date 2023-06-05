@@ -1,0 +1,88 @@
+***********************************************************
+Execute in command prompt to setup server locally:
+
+java -jar -Dserver.\port-9191 jobportal-0.0.1-SNAPSHOT.jar
+
+After successfully opened, navigate to below mentioned url:
+http://localhost:9191/swagger-ui.html#/
+
+***********************************************************
+To view the data 
+http://jsonviewer.stack.hu/
+https://codebeautify.org/xmlviewer
+
+***********************************************************
+
+HTTP METHODS URL
+GET    - http://localhost:9191/normal/webapi/all
+POST   - http://localhost:9191/normal/webapi/add
+PUT    - http://localhost:9191/normal/webapi/update
+DELETE - http://localhost:9191/normal/webapi/remove/{id}
+PATCH  - http://localhost:9191/normal/webapi/update/details
+
+Summary: 
+GET - Only the Request URL
+POST - Body in Json/xml format
+PUT - Body in Json/xml format
+DELETE - Only the request URL with id | | NO BODY 
+PATCH - Parameters : id,jobTitle, jobDescription | NO BODY 
+
+***********************************************************
+{} - Json Object 
+[] - Json Array -> Index : Starts from ZERO(0) 
+Synax - Dot(.)
+
+response.[0].jobId == 1
+response.[0].experience[1] == 'Apple'
+response.[0].experience[2] == 'Mobile Iron'
+response.[0].project[0].projectName == 'Movie App'
+response.[0].project[0].technology[2] == 'Gradle'
+
+
+  {
+    "jobId": 1,
+    "jobTitle": "Software Engg",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Google",
+      "Apple",
+      "Mobile Iron"
+    ],
+    "project": [
+      {
+        "projectName": "Movie App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle"
+        ]
+      }
+    ]
+  }
+
+
+ <item>
+    <jobId>1</jobId>
+    <jobTitle>Software Engg</jobTitle>
+    <jobDescription>To develop andriod application</jobDescription>
+    <experience>
+      <experience>Google</experience>
+      <experience>Apple</experience>
+      <experience>Mobile Iron</experience>
+    </experience>
+    <project>
+      <project>
+        <projectName>Movie App</projectName>
+        <technology>
+          <technology>Kotlin</technology>
+          <technology>SQL Lite</technology>
+          <technology>Gradle</technology>
+        </technology>
+      </project>
+    </project>
+  </item>
+
+
+parsing - / 
+Count starts from 1 
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.w2a.APITestingFramework.listeners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="Create Order Test(failed)">
+    <classes>
+      <class name="com.w2a.APITestingFramework.testcases.paypal.CreateOrderTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="createOrder"/>
+        </methods>
+      </class> <!-- com.w2a.APITestingFramework.testcases.paypal.CreateOrderTest -->
+    </classes>
+  </test> <!-- Create Order Test(failed) -->
+  <test thread-count="5" name="Get Order Test(failed)">
+    <classes>
+      <class name="com.w2a.APITestingFramework.testcases.paypal.GetOrderTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="getOrder"/>
+        </methods>
+      </class> <!-- com.w2a.APITestingFramework.testcases.paypal.GetOrderTest -->
+    </classes>
+  </test> <!-- Get Order Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

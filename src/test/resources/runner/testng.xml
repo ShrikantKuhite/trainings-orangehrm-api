@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+	<listeners>
+		<listener class-name="com.nxtgenai.listeners.ExtentListeners"></listener>
+	</listeners>
+	<test name="Sanity">
+		<classes>
+			<class name="com.nxtgenai.jobportal.GetJobDetails" />
+			<class name="com.nxtgenai.jobportal.CreateJobId" />
+			<class name="com.nxtgenai.jobportal.UpdateJobDetails" />
+			<class name="com.nxtgenai.jobportal.UpdatedJobDescription" />
+			<class name="com.nxtgenai.jobportal.DeleteJobDetails" />
+			<class name="com.nxtgenai.auth.AuthAPITest"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+{
+    "jobId": 10,
+    "jobTitle": "IT Engg",
+    "jobDescription": "To develop IT application",
+    "experience": [
+      "Google",
+      "Apple",
+      "NxtGen"
+    ],
+    "project": [
+      {
+        "projectName": "Movie App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Maven"
+        ]
+      }
+    ]
+  }
